@@ -1,6 +1,6 @@
 import numpy as np
 import tensorflow as tf
-from model_contour import build_model
+from model_deepfake import build_model
 from utils import random_crop_and_pad_image_and_labels
 import os
 import cv2
