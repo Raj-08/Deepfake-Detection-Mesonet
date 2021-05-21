@@ -9,21 +9,15 @@ Mesonet utilises Deepfake detection on Cropped Faces. For this a fast and accura
 ```
 git clone https://github.com/elliottzheng/face-detection
 ```
-**Label Preparation :**
 
-To prepare the labels for contour detection from PASCAL Dataset , run create_lables.py and edit the file to add the path of the labels and new labels to be generated . Use this path for labels during training. 
+**DATASET**
+
+We use the Deepfake Dataset DFDC available publicly at Facebook. (https://ai.facebook.com/datasets/dfdc/)
 
 **TRAINING :**
 
 ```
 python train.py \
-
-```
-
-**DATASET**
-```
-
-We use the Deepfake dataset available publicly at Facebook. (https://ai.facebook.com/datasets/dfdc/)
 
 ```
 **Results :**
