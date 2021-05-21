@@ -4,8 +4,10 @@ A Tensorflow Implementation of MesoNet: a Compact Facial Video Forgery Detection
 
 **REQUIREMENTS :**
 
+Mesonet utilises Deepfake detection on Cropped Faces. For this a fast and accurate pytorch based tool is used to crop the faces. 
+
 ```
-pip install requirements.txt
+git clone https://github.com/elliottzheng/face-detection
 ```
 **Label Preparation :**
 
