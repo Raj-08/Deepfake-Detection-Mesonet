@@ -28,7 +28,7 @@ python filter_videos.py
 python train.py \
 
 ```
-**Results :**
+**RESULTS :**
 
 <img src="./Disinf-GIF.gif" alt="Image_1"/>
 
