@@ -39,7 +39,7 @@ python eval.py \
 ```
 **Results :**
 
-<img src="./images (36).jpeg" alt="Image_1"/>
+<img src="./Disinf-GIF.gif" alt="Image_1"/>
 
 <!-- <img src="./000999.png" alt="prediction_1"/>
 
