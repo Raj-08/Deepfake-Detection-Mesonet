@@ -1,7 +1,12 @@
 # Tensorflow-Deepfake-Detection-Mesonet
 A Tensorflow Implementation of MesoNet: a Compact Facial Video Forgery Detection Network (https://arxiv.org/abs/1809.00888)
 
+Here is Jimmy Fallon (Paul Rudd) on the The Jimmy Fallon Show. 
+
 <img src="./df-1.png" alt="Image_2"/>
+<img src="./df-2.png" alt="Image_3"/>
+<img src="./df-3.png" alt="Image_4"/>
+
 
 **REQUIREMENTS :**
 
