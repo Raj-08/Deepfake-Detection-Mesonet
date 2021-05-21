@@ -10,9 +10,16 @@ Mesonet utilises Deepfake detection on Cropped Faces. For this a fast and accura
 git clone https://github.com/elliottzheng/face-detection
 ```
 
-**DATASET**
+**DATASET :**
 
 We use the Deepfake Dataset DFDC available publicly at Facebook. (https://ai.facebook.com/datasets/dfdc/)
+
+The dataset has all videos along and its labels reside in JSON. For parsing this information and placing videos in respective folders , after downloading the dataset run the command below :
+
+ ```
+python filter_videos.py
+```
+
 
 **TRAINING :**
 
