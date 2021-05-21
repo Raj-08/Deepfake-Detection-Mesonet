@@ -2,12 +2,6 @@
 A Tensorflow Implementation of MesoNet: a Compact Facial Video Forgery Detection Network (https://arxiv.org/abs/1809.00888)
 
 
-The following is the Tensorflow Implementation of 
-
-# tensorflow-object-contour-detection
-
-This is a tensorflow implimentation of Object Contour Detection with a Fully Convolutional Encoder-Decoder Network (https://arxiv.org/pdf/1603.04530.pdf) . 
-
 **REQUIREMENTS :**
 
 ```
