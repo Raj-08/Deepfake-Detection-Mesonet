@@ -1,6 +1,8 @@
 # Tensorflow-Deepfake-Detection-Mesonet
 A Tensorflow Implementation of MesoNet: a Compact Facial Video Forgery Detection Network (https://arxiv.org/abs/1809.00888)
 
+[![Watch the video](./gif.gif)](https://www.youtube.com/watch?v=vch1CmgX0LA)
+
 <img src="./gif.gif" alt="Image_2"/>
 
 **REQUIREMENTS :**
