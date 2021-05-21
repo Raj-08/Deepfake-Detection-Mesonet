@@ -14,7 +14,7 @@ git clone https://github.com/elliottzheng/face-detection
 
 We use the Deepfake Dataset DFDC available publicly at Facebook. (https://ai.facebook.com/datasets/dfdc/)
 
-The dataset has all videos along and its labels reside in JSON. For parsing this information and placing videos in respective folders , after downloading the dataset run the command below :
+The dataset has videos and its labels reside in JSON format for each file. For parsing this information and placing videos in respective folders , after downloading the dataset run the command below :
 
  ```
 python filter_videos.py
