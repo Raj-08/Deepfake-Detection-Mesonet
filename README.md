@@ -17,26 +17,13 @@ To prepare the labels for contour detection from PASCAL Dataset , run create_lab
 
 ```
 python train.py \
-    --max_to_keep=50 \
-    --Epochs=100 \
-    --momentum=0.9 \
-    --learning_rate=.0000001 \
-    --train_crop_size=480 \
-    --clip_by_value=1.0 \
-    --train_text = ${path to text file} \
-    --log_dir = ${path to where logs will be saved} \
-    --tf_initial_checkpoint=${PATH_TO_CHECKPOINT} \
-    --label_dir = ${path to label directory} \
-    --image_dir = ${path to image directory}
+
 ```
-**EVALUATION :**
+
+**DATASET**
 ```
-python eval.py \
-    --checkpoint=${path to checkpoint to be evaluated} \
-    --save_preds=${path to folder where predictions will be saved} \
-    --image_dir = ${path to image directory} \
-    --eval_crop_size=480 \
-    --eval_text =  ${path to eval text file}
+
+We use the Deepfake dataset available publicly at Facebook. (https://ai.facebook.com/datasets/dfdc/)
 
 ```
 **Results :**
